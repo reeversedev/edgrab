@@ -146,10 +146,12 @@ hr {
     font-size: 14px;
     font-weight: bold;
 }
+
 #college p {
     margin-top: -5px;
     font-size: 12px;
 }
+
 #course {
     margin-top: -17px;
 }
@@ -158,9 +160,11 @@ hr {
     font-weight: bold;
     font-size: 14px;
 }
+
 #course p {
     font-size: 12px;
 }
+
 #course a {
     margin-right: 15px;
     margin-top: -30px;
@@ -217,7 +221,7 @@ hr {
         padding-top: 15px;
         padding-left: 5%;
     }
-    #name h4{
+    #name h4 {
         font-size: 15px;
         text-align: center;
         font-weight: bold;
@@ -232,9 +236,8 @@ hr {
         margin-right: 20px;
         margin-top: -300px;
     }
-    
     #your-profile h4 {
-       text-align: left;
+        text-align: left;
         font-weight: 600;
         font-size: 14px;
         text-align: center;
@@ -274,6 +277,7 @@ hr {
         margin-left: 0;
     }
 }
+
 @media (min-width: 320px) and (max-width: 374px) {
     #page-content-wrapper {
         width: 100%;
@@ -295,7 +299,7 @@ hr {
         padding-top: 20%;
         padding-right: 10%;
     }
-    #name h4{
+    #name h4 {
         margin-top: -10px;
         font-size: 15px;
         text-align: center;
@@ -311,14 +315,14 @@ hr {
         margin-right: 10px;
         margin-top: -310px;
     }
-    
     #your-profile h4 {
         font-weight: bold;
         font-size: 12px;
         text-align: center;
     }
     .seperator {
-        margin-top: 10px;;
+        margin-top: 10px;
+        ;
         width: 50%;
         margin-left: 30%;
     }
@@ -351,6 +355,7 @@ hr {
         border-radius: 5px;
     }
 }
+
 @media (min-width: 425px) and (max-width:650px) {
     #page-content-wrapper {
         width: 100%;
@@ -372,7 +377,7 @@ hr {
         padding-top: 20%;
         padding-right: 10px;
     }
-    #name h4{
+    #name h4 {
         margin-top: -10px;
         font-size: 15px;
         text-align: center;
@@ -388,14 +393,14 @@ hr {
         margin-right: 40px;
         margin-top: -290px;
     }
-    
     #your-profile h4 {
         font-weight: bold;
         font-size: 14px;
         text-align: center;
     }
     .seperator {
-        margin-top: 10px;;
+        margin-top: 10px;
+        ;
         width: 50%;
         margin-left: 30%;
     }
