@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" class="hidden-xs hidden-sm">
+            <div>
+                <h4 class="text-center nav-header">Navigation sidebar</h4>
+            </div>
+
+            <hr />
+            <ul class="sidebar-nav">
+                <li class="link list-group"><a href="#">Link 1</a>
+                    <li class="text-center sublink"><a href="#">Sublink1</a></li>
+                    <li class="text-center sublink"><a href="#">Sublink2</a></li>
+                    <li class="text-center sublink"><a href="#">Sublink3</a></li>
+                </li>
+                <li class="list-group link"><a href="#">Link 2</a></li>
+                <li class="list-group link"><a href="#">Link 3</a></li>
+                <li class="list-group link"><a href="#">Link 4</a></li>
+            </ul>
+        </div>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div id="upperdiv">
+                    <div class="col-lg-12" id="profile">
+                        <div class="col-lg-2">
+                            <div id="profile-pic">
+                                <div id="circle">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 row">
+                            <div id="name">
+                                <h4>Jonathan Matthews</h4>
+                            </div>
+                            <div id="designation">
+                                Software Engineer
+                            </div>
+                            <div id="location">
+                                New Delhi, India
+                            </div>
+                        </div>
+                        <div class="pull-right" id="your-profile">
+                            <h4>your profile</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="seperator hidden-lg">
+                </div>
+                <div class="hidden-lg" id="education-mobile">
+                    <ul class="list-group ">
+                        <li class="active list-group-item"><a href="#">Education</a></li>
+                        <li class="list-group-item"><a href="#">Experience</a></li>
+                        <li class="list-group-item"><a href="#">Skills</a></li>
+                        <li class="list-group-item"><a href="#">Salary</a></li>
+                    </ul>
+                </div>
+                <div class="seperator hidden-xs">
+                </div>
+                <div id="lowerdiv" class="col-lg-12">
+                    <div class="col-lg-4">
+                        <ul class="list-group hidden-xs" id="panels">
+                            <li class="list-group-item active">Education</li>
+                            <li class="list-group-item">Experience</li>
+                            <li class="list-group-item">Skills</li>
+                            <li class="list-group-item">Salary</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                        <div id="education" class="clearfix">
+                            <div class="header clearfix">
+                                <h4>Your Education</h4>
+                                <hr>
+                                <div class="pull-right clearfix" id="addLink">
+                                    <a href="#" data-toggle="modal" data-target="#myModal">Add</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 clearfix" id="college">
+                                <h4>College</h4>
+                                <p>Lingaya's GVK Institute of Management and Technology</p>
+                            </div>
+                            <div class="col-lg-7 clearfix" id="course">
+                                <h4>Course</h4>
+                                <p>Btech Computer Science</p>
+                                <a href="#" class="pull-right">Edit</a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title">Add your education details.</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div>
+                                                    <h4>College</h4>
+                                                    <div class="small-rectangle"></div>
+                                                </div>
+                                                <div>
+                                                    <h4>Degree/ Diploma</h4>
+                                                    <div class="small-rectangle"></div>
+                                                </div>
+                                                <div>
+                                                    <h4>Completed</h4>
+                                                    <div class="container row">
+                                                        <div class="col-lg-2 col-sm-2 col-xs-2 col-md-2 middle-rectangle"></div>
+                                                        <div class="col-lg-1 col-sm-1 col-xs-1 col-md-1 extra-small-rectangle"></div>
+                                                        <div class="col-lg-1 col-sm-1 col-xs-1 col-md-1 extra-small-rectangle"></div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success active" data-dismiss="modal">Save Changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="styles.js"></script>
+</body>
+
+</html>
